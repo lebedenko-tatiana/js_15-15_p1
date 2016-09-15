@@ -4,12 +4,15 @@
   font-family: Arial;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 .search {
   border: 1px solid #ccc; 
-  min-height: 35px; 
+  height: 35px; 
   margin: 100px auto 30px;
-  width: 691px;
-  box-sizing: border-box;
+  width: 690px;
 }
 
 .search-input {
@@ -19,7 +22,7 @@
   width: 600px;
   height: 30px;
   padding: 5px;
-  vertical-align: middle; 
+  vertical-align: top; 
 }
 
 .search-submit {
@@ -28,7 +31,6 @@
   border: none;
   background: url("../img/search_btn.png") 0 0 no-repeat; 
   cursor: pointer;
-  
 }
 
 .wrapper {
